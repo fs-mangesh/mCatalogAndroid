@@ -1,0 +1,4 @@
+/Users/afour/Desktop/Parse-Todo-Project-1/ToDoList/build/intermediates/classes/release
+/Users/afour/Desktop/Parse-Todo-Project-1/ToDoList/build/intermediates/pre-dexed/release/bolts-android-1.1.4-14513646e6e2969aef6920fa85f627168fe73e94.jar
+/Users/afour/Desktop/Parse-Todo-Project-1/ToDoList/build/intermediates/pre-dexed/release/ParseCrashReporting-1.8.0-50334a07997a05ac990fc6060d9a828f4a88c2fe.jar
+/Users/afour/Desktop/Parse-Todo-Project-1/ToDoList/build/intermediates/pre-dexed/release/Parse-1.8.0-f96bd16ad0b72310eeb4de09bb9c05437306234e.jar

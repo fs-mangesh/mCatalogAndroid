@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parse.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.parse.demo.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.parse.demo.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.parse.demo.ToDoListApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.parse.demo.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.parse.demo.ToDoListActivity" >
+        </activity>
+        <activity android:name="com.parse.demo.CreateTodo" >
+        </activity>
+        <activity android:name="com.parse.demo.InitialListViewActivity" >
+        </activity>
+        <activity android:name="com.parse.demo.CheckoutActivity" >
+        </activity>
+        <activity android:name="com.parse.demo.SearchDevicesActivity" >
+        </activity>
+        <activity android:name="com.parse.demo.AdminDailyActivity" >
+        </activity>
+        <activity android:name="com.parse.demo.AdminDateHistoryActivity" >
+        </activity>
+        <activity android:name="com.parse.demo.SignUpActivity" >
+        </activity>
+        <activity android:name="com.parse.demo.ForgotPasswordActivity" >
+        </activity>
+        <activity android:name="com.parse.demo.ParseAnalyticsActivity" >
+        </activity>
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!-- IMPORTANT: Change "com.parse.tutorials.pushnotifications" to match your app's package name. -->
+                <category android:name="com.parse.demo" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.demo.ParseReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.parse.demo.MyAlarmService"
+            android:enabled="true" />
+        <service
+            android:name="com.parse.demo.ParseAnalyticsService"
+            android:exported="false" >
+        </service>
+
+        <receiver android:name="com.parse.demo.TimeAlarm" >
+            <intent-filter>
+                <action android:name=".CheckoutActivity" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

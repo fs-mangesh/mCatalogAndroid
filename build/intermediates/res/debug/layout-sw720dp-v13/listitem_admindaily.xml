@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="6dip"
+        android:layout_marginLeft="50dp"
+        android:text=""
+        android:textColor="#214870"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtDevice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:paddingLeft="6dip"
+        android:text=""
+        android:layout_below="@id/txtUser"
+        android:textColor="#214870"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtCheckoutDate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/txtUser"
+        android:text=""
+        android:textColor="#214870"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtCheckoutTime"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheckoutDate"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/txtUser"
+        android:text=""
+        android:textColor="#214870"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtCheckinDate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@id/txtCheckoutDate"
+        android:text=""
+        android:textColor="#214870"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtCheckinTime"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheckinDate"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@id/txtCheckoutDate"
+        android:text=""
+        android:textColor="#214870"
+        android:textSize="16dp"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/txtCheckinTime"
+        android:background="@drawable/header"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout><!-- From: file:/Users/afourtest/AndroidStudioProjects/mCatalogue/mCatalogue/res/layout-sw720dp/listitem_admindaily.xml -->

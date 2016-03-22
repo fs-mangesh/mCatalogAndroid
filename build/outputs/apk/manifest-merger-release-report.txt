@@ -1,0 +1,199 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+permission#com.parse.demo.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:19:5
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:21:9
+	android:name
+		ADDED from AndroidManifest.xml:20:9
+uses-permission#com.parse.demo.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+application
+ADDED from AndroidManifest.xml:25:5
+	android:label
+		ADDED from AndroidManifest.xml:28:9
+	android:icon
+		ADDED from AndroidManifest.xml:27:9
+	android:theme
+		ADDED from AndroidManifest.xml:29:9
+	android:name
+		ADDED from AndroidManifest.xml:26:9
+activity#com.parse.demo.MainActivity
+ADDED from AndroidManifest.xml:30:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:33:13
+	android:label
+		ADDED from AndroidManifest.xml:32:13
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:34:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:35:17
+	android:name
+		ADDED from AndroidManifest.xml:35:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:37:17
+	android:name
+		ADDED from AndroidManifest.xml:37:27
+activity#com.parse.demo.ToDoListActivity
+ADDED from AndroidManifest.xml:40:9
+	android:name
+		ADDED from AndroidManifest.xml:40:19
+activity#com.parse.demo.CreateTodo
+ADDED from AndroidManifest.xml:42:9
+	android:name
+		ADDED from AndroidManifest.xml:42:19
+activity#com.parse.demo.InitialListViewActivity
+ADDED from AndroidManifest.xml:44:9
+	android:name
+		ADDED from AndroidManifest.xml:44:19
+activity#com.parse.demo.CheckoutActivity
+ADDED from AndroidManifest.xml:46:9
+	android:name
+		ADDED from AndroidManifest.xml:46:19
+activity#com.parse.demo.SearchDevicesActivity
+ADDED from AndroidManifest.xml:48:9
+	android:name
+		ADDED from AndroidManifest.xml:48:19
+activity#com.parse.demo.AdminDailyActivity
+ADDED from AndroidManifest.xml:50:9
+	android:name
+		ADDED from AndroidManifest.xml:50:19
+activity#com.parse.demo.AdminDateHistoryActivity
+ADDED from AndroidManifest.xml:52:9
+	android:name
+		ADDED from AndroidManifest.xml:52:19
+activity#com.parse.demo.SignUpActivity
+ADDED from AndroidManifest.xml:54:9
+	android:name
+		ADDED from AndroidManifest.xml:54:19
+activity#com.parse.demo.ForgotPasswordActivity
+ADDED from AndroidManifest.xml:56:9
+	android:name
+		ADDED from AndroidManifest.xml:56:19
+service#com.parse.PushService
+ADDED from AndroidManifest.xml:59:9
+	android:name
+		ADDED from AndroidManifest.xml:59:18
+receiver#com.parse.ParseBroadcastReceiver
+ADDED from AndroidManifest.xml:61:9
+	android:name
+		ADDED from AndroidManifest.xml:61:19
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
+ADDED from AndroidManifest.xml:62:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:63:17
+	android:name
+		ADDED from AndroidManifest.xml:63:25
+action#android.intent.action.USER_PRESENT
+ADDED from AndroidManifest.xml:64:17
+	android:name
+		ADDED from AndroidManifest.xml:64:25
+receiver#com.parse.GcmBroadcastReceiver
+ADDED from AndroidManifest.xml:67:9
+	android:permission
+		ADDED from AndroidManifest.xml:69:13
+	android:name
+		ADDED from AndroidManifest.xml:68:13
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.parse.demo
+ADDED from AndroidManifest.xml:70:13
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from AndroidManifest.xml:71:17
+	android:name
+		ADDED from AndroidManifest.xml:71:25
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from AndroidManifest.xml:72:17
+	android:name
+		ADDED from AndroidManifest.xml:72:25
+category#com.parse.demo
+ADDED from AndroidManifest.xml:75:17
+	android:name
+		ADDED from AndroidManifest.xml:75:27
+receiver#com.parse.ParsePushBroadcastReceiver
+ADDED from AndroidManifest.xml:78:9
+	android:exported
+		ADDED from AndroidManifest.xml:80:13
+	android:name
+		ADDED from AndroidManifest.xml:79:13
+intent-filter#com.parse.push.intent.DELETE+com.parse.push.intent.OPEN+com.parse.push.intent.RECEIVE
+ADDED from AndroidManifest.xml:81:13
+action#com.parse.push.intent.RECEIVE
+ADDED from AndroidManifest.xml:82:17
+	android:name
+		ADDED from AndroidManifest.xml:82:25
+action#com.parse.push.intent.DELETE
+ADDED from AndroidManifest.xml:83:17
+	android:name
+		ADDED from AndroidManifest.xml:83:25
+action#com.parse.push.intent.OPEN
+ADDED from AndroidManifest.xml:84:17
+	android:name
+		ADDED from AndroidManifest.xml:84:25
+service#com.parse.demo.MyAlarmService
+ADDED from AndroidManifest.xml:88:9
+	android:enabled
+		ADDED from AndroidManifest.xml:90:13
+	android:name
+		ADDED from AndroidManifest.xml:89:13
+receiver#com.parse.demo.TimeAlarm
+ADDED from AndroidManifest.xml:92:9
+	android:name
+		ADDED from AndroidManifest.xml:92:19
+intent-filter#.CheckoutActivity
+ADDED from AndroidManifest.xml:93:13
+action#.CheckoutActivity
+ADDED from AndroidManifest.xml:94:17
+	android:name
+		ADDED from AndroidManifest.xml:94:25

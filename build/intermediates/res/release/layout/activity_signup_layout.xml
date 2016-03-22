@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bar"
+        android:id="@+id/screenName"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textDirection="firstStrong"
+        android:gravity="center"
+        android:text="SignUp"/>
+
+    <LinearLayout
+        android:id="@+id/signupLinLAyout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/screenName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/info" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Contact"
+            android:textSize="20dp"
+            android:textColor="#214870"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/signupEmailTxt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signupLinLAyout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Email"
+        android:inputType="text"
+        android:background="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:id="@+id/imgLineEmail"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bar"
+        android:layout_below="@id/signupEmailTxt"/>
+
+    <EditText
+        android:id="@+id/signupUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLineEmail"
+        android:layout_centerHorizontal="true"
+        android:hint="Username"
+        android:inputType="text"
+        android:background="#FFFFFF"
+        android:focusable="false"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:id="@+id/imgLineUsername"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bar"
+        android:layout_below="@id/signupUsername"/>
+    
+    <LinearLayout
+        android:id="@+id/signupLinLAyout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLineUsername"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/lock" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Password"
+            android:textColor="#214870"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/signupPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signupLinLAyout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:id="@+id/imgLinePassword"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bar"
+        android:layout_below="@id/signupPassword"/>
+
+    <EditText
+        android:id="@+id/signupConfirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLinePassword"
+        android:layout_centerHorizontal="true"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:id="@+id/imgLineConfirmPassword"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bar"
+        android:layout_below="@id/signupConfirmPassword"/>
+
+    <Button
+        android:id="@+id/btnShowPasswd"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/imgLineConfirmPassword"
+        android:layout_centerHorizontal="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Show Password"
+        android:textColor="#214870"
+        android:textSize="13dp"/>
+
+    <Button
+        android:id="@+id/btnsignFrgtPasswd"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/btnShowPasswd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button1"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout><!-- From: file:/Users/afour/Desktop/Parse-Todo-Project-1/ToDoList/res/layout/activity_signup_layout.xml -->

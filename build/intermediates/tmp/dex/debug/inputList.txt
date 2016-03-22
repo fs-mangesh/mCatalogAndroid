@@ -1,0 +1,4 @@
+/Users/afourtest/AndroidStudioProjects/mCatalogue/mCatalogue/build/intermediates/classes/debug
+/Users/afourtest/AndroidStudioProjects/mCatalogue/mCatalogue/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-17739dbcbe261db69aac61cf01b9039a2f6c9083.jar
+/Users/afourtest/AndroidStudioProjects/mCatalogue/mCatalogue/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.0-46841c9d900d2ddced420e199c31f100436a21b5.jar
+/Users/afourtest/AndroidStudioProjects/mCatalogue/mCatalogue/build/intermediates/pre-dexed/debug/Parse-1.8.0-1e839d4ef42f0077cabcbf4e445786033dce9d27.jar

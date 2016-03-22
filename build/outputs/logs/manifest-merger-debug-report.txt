@@ -1,0 +1,217 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:2:1-119:12
+	package
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:3:5-29
+	android:versionName
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml
+		INJECTED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml
+		INJECTED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml
+		INJECTED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml
+		INJECTED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:14:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:15:22-65
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:16:22-68
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:17:5-82
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:17:22-79
+permission#com.parse.demo.permission.C2D_MESSAGE
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:19:5-21:47
+	android:protectionLevel
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:21:9-44
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:20:9-61
+uses-permission#com.parse.demo.permission.C2D_MESSAGE
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:23:22-74
+application
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:25:5-117:19
+	android:label
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:28:9-41
+	android:icon
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:27:9-45
+	android:theme
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:29:9-56
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:26:9-43
+activity#com.parse.demo.MainActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:30:9-39:20
+	android:label
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:32:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:33:13-54
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:31:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:37:27-74
+activity#com.parse.demo.ToDoListActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:40:9-41:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:40:19-51
+activity#com.parse.demo.CreateTodo
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:42:9-43:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:42:19-45
+activity#com.parse.demo.InitialListViewActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:44:9-45:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:44:19-58
+activity#com.parse.demo.CheckoutActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:46:9-47:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:46:19-51
+activity#com.parse.demo.SearchDevicesActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:48:9-49:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:48:19-56
+activity#com.parse.demo.AdminDailyActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:50:9-51:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:50:19-53
+activity#com.parse.demo.AdminDateHistoryActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:52:9-53:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:52:19-59
+activity#com.parse.demo.SignUpActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:54:9-55:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:54:19-49
+activity#com.parse.demo.ForgotPasswordActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:56:9-57:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:56:19-57
+activity#com.parse.demo.ParseAnalyticsActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:58:9-60:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:59:13-51
+service#com.parse.PushService
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:62:9-57
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:62:18-54
+receiver#com.parse.ParseBroadcastReceiver
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:64:9-69:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:64:19-66
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:65:13-68:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:66:17-79
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:66:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:67:17-77
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:67:25-74
+receiver#com.parse.GcmBroadcastReceiver
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:70:9-80:20
+	android:permission
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:72:13-73
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:71:13-58
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.parse.demo
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:73:13-79:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:74:17-81
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:74:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:75:17-86
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:75:25-83
+category#com.parse.demo
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:78:17-59
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:78:27-56
+receiver#com.parse.ParsePushBroadcastReceiver
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:81:9-89:20
+	android:exported
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:83:13-37
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:82:13-64
+intent-filter#com.parse.push.intent.DELETE+com.parse.push.intent.OPEN+com.parse.push.intent.RECEIVE
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:84:13-88:29
+action#com.parse.push.intent.RECEIVE
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:85:17-72
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:85:25-69
+action#com.parse.push.intent.DELETE
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:86:17-71
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:86:25-68
+action#com.parse.push.intent.OPEN
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:87:17-69
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:87:25-66
+receiver#com.parse.demo.ParseReceiver
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:91:9-99:20
+	android:exported
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:93:13-37
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:92:13-42
+service#com.parse.demo.MyAlarmService
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:101:9-103:38
+	android:enabled
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:103:13-35
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:102:13-43
+service#com.parse.demo.ParseAnalyticsService
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:105:9-108:19
+	android:exported
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:107:13-37
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:106:13-50
+receiver#com.parse.demo.TimeAlarm
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:110:9-114:20
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:110:19-44
+intent-filter#.CheckoutActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:111:13-113:29
+action#.CheckoutActivity
+ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:112:17-60
+	android:name
+		ADDED from /Users/afour/Downloads/mCatalogue_mail/mCatalogue/AndroidManifest.xml:112:25-57

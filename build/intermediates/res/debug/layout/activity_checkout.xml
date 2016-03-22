@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+     >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bar"
+        android:id="@+id/screenName1"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textDirection="firstStrong"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/screenName1"
+        android:id="@+id/screenName"
+        android:text="Checkout"
+        android:textColor="#214870"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageCheckout"
+        android:layout_below="@id/screenName1"
+        android:src="@drawable/checkout"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/screenName"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/screenName"
+        android:id="@+id/inputUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:inputType="text"
+        android:hint="Enter username"
+        android:background="#FFFFFF"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="1dp"
+        android:id="@+id/imgLineUsername"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bar"
+        android:layout_below="@id/inputUsername"/>
+
+	<EditText
+        android:id="@+id/inputText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgLineUsername"
+        android:inputType="phone"
+        android:hint="Enter time (in hrs)"
+        android:background="#FFFFFF">
+    </EditText>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="1dp"
+        android:id="@+id/imgLineTime"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bar"
+        android:layout_below="@id/inputText"/>
+    
+	<Button
+        android:id="@+id/checkBtn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/imgLineTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Register"
+        android:background="@drawable/button1"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+       />
+
+</RelativeLayout><!-- From: file:/Users/afourtest/AndroidStudioProjects/mCatalogue/mCatalogue/res/layout/activity_checkout.xml -->

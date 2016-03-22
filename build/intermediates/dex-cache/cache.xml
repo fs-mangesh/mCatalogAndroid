@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/afour/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/afour/Downloads/mCatalogue_mail/mCatalogue/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_14513646e6e2969aef6920fa85f627168fe73e94.jar" />
+    </item>
+    <item
+        jar="/Users/afour/Downloads/mCatalogue_mail/mCatalogue/libs/Parse-1.8.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="61cf79e2775b882ac0ea32d60ea2dbbf6f245cea">
+        <dex dex="/Users/afour/Downloads/mCatalogue_mail/mCatalogue/build/intermediates/pre-dexed/debug/Parse-1.8.0_71b66c8e8658fb2378be2da3a747d9cb6539d27a.jar" />
+    </item>
+    <item
+        jar="/Users/afour/Downloads/mCatalogue_mail/mCatalogue/libs/ParseCrashReporting-1.8.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="55e71442ecbce939ce2a1ad75d1a4408a61d6804">
+        <dex dex="/Users/afour/Downloads/mCatalogue_mail/mCatalogue/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.0_d0c3de739826fa6e57a92176d4757efbfa6c2049.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/afour/Desktop/Parse-Todo-Project-1/ToDoList/src/main/assets"><file name="storeData.json" path="/Users/afour/Desktop/Parse-Todo-Project-1/ToDoList/src/main/assets/storeData.json"/></source></dataSet><dataSet config="release"><source path="/Users/afour/Desktop/Parse-Todo-Project-1/ToDoList/src/release/assets"/></dataSet></merger>

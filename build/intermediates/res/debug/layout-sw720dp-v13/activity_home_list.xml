@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/bar"
+            android:id="@+id/screenName"
+            android:text="Home"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:textDirection="firstStrong"
+            android:gravity="center"/>
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/screenName"
+            android:layout_weight="1"
+            android:layout_marginTop="75dp"
+            android:background="@android:color/white"
+            android:dividerHeight="90dp"
+            android:divider="@null"/>
+     
+ </RelativeLayout> 
+<!-- From: file:/Users/afourtest/AndroidStudioProjects/mCatalogue/mCatalogue/res/layout-sw720dp/activity_home_list.xml -->

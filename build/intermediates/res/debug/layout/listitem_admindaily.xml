@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="6dip"
+        android:text=""
+        android:textColor="#214870"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtDevice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="6dip"
+        android:text=""
+        android:layout_below="@id/txtUser"
+        android:textColor="#214870"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtCheckoutDate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dip"
+        android:layout_toRightOf="@id/txtUser"
+        android:text=""
+        android:textColor="#214870"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtCheckoutTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheckoutDate"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/txtUser"
+        android:text=""
+        android:textColor="#214870"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtCheckinDate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_toRightOf="@id/txtCheckoutDate"
+        android:text=""
+        android:textColor="#214870"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtCheckinTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheckinDate"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/txtCheckoutDate"
+        android:text=""
+        android:textColor="#214870"
+        android:textSize="15dp"/>
+
+</RelativeLayout><!-- From: file:/Users/afourtest/AndroidStudioProjects/mCatalogue/mCatalogue/res/layout/listitem_admindaily.xml -->

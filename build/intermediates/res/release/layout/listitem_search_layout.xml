@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtModel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="6dip"
+        android:textColor="#214870"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtRegsiterNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtModel"
+        android:layout_marginLeft="6dip"
+        android:textColor="#214870"
+        android:textSize="15dp"  />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@id/txtModel"
+        android:textColor="#214870"
+        android:textSize="18dp"  />
+
+</RelativeLayout><!-- From: file:/Users/afour/Desktop/Parse-Todo-Project-1/ToDoList/res/layout/listitem_search_layout.xml -->

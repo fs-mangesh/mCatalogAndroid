@@ -1,0 +1,50 @@
+{
+  "storelocator": {
+    "item": [
+      {
+        "role": "admin",
+        "status": "checkout",
+        "data":[
+            { "heading": "Register", "subheading": "This device","image": "register.png" },
+			{ "heading": "Activity", "subheading": "Specific Devices","image": "activity.png" },
+			{ "heading": "Daily Activity", "subheading": "All devices","image": "daily.png" },
+			{ "heading": "Checkout", "subheading": "This device","image": "checkout.png" },
+            { "heading": "Logout", "subheading":"Logout from app","image":"logout.png"}
+
+		]
+      },
+      {
+        "role": "admin",
+        "status": "checkoutDone",
+        "data":[
+            { "heading": "Activity", "subheading": "Specific Devices","image": "activity.png" },
+            { "heading": "Daily Activity", "subheading": "All devices","image": "daily.png" },
+            { "heading": "Checkin", "subheading": "This device","image": "checkin.png" },
+            { "heading": "Logout", "subheading":"Logout from app","image":"logout.png"}
+        ]
+      },
+     
+      {
+        "role": "user",
+        "status": "checkoutDone",
+        "data":[
+            { "heading": "Extend", "subheading": "This device","image": "daily.png" },
+            { "heading": "Retain", "subheading": "This device","image": "checkout.png" },
+            { "heading": "Search", "subheading": "For a device","image": "search.png" },
+            { "heading": "Logout", "subheading":"Logout from app","image":"logout.png"}
+        ]
+      },
+      {
+        "role":"manager",
+        "status": "View",
+        "data":[
+            {"heading":"Analytics", "subheading":"Overall analytics","image":"analytics.png"},
+            { "heading": "Activity", "subheading": "Specific Devices","image": "activity.png" },
+            { "heading": "Daily Activity", "subheading": "All devices","image": "daily.png" },
+            { "heading": "Logout", "subheading":"Logout from app","image":"logout.png"}
+            ]
+      }
+   
+    ]
+  }
+}
